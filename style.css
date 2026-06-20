@@ -1,14 +1,16 @@
+/* Rebranding and design updates for Santos Strategy Studio website */
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f7f5;
-    color: #1f2d2b;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8fafc;
+    color: #334155;
 }
 
 header {
-    background-color: #004529;
+    background-color: #1e3a5f;
     color: white;
-    padding: 20px;
+    padding: 25px;
     text-align: center;
 }
 
@@ -19,69 +21,79 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    margin: 10px;
+    margin: 12px;
 }
 
 nav a:hover {
-    color: #c9e4ca;
+    color: #93c5fd;
     text-decoration: underline;
 }
 
 .hero {
+    background-color: #e0f2fe;
     text-align: center;
-    padding: 40px 20px;
-    background-color: #d8f3dc;
+    padding: 60px 25px;
 }
 
 .hero h2 {
-    color: #004529;
+    color: #1e3a5f;
+}
+
+.hero p {
+    max-width: 650px;
+    margin: auto;
+    line-height: 1.6;
 }
 
 .services {
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding: 30px;
+    padding: 35px;
 }
 
 .service {
     background-color: white;
+    width: 260px;
     padding: 20px;
-    width: 250px;
-    border: 1px solid #cccccc;
-    border-radius: 8px;
+    border-radius: 10px;
+    border: 1px solid #cbd5e1;
     text-align: center;
 }
 
+.service h3 {
+    color: #1e3a5f;
+}
+
 .service:hover {
-    background-color: #eaf4ea;
+    background-color: #dbeafe;
     cursor: pointer;
 }
 
 .update-section {
     text-align: center;
-    padding: 30px;
+    padding: 35px;
 }
 
 input {
     padding: 10px;
-    width: 250px;
+    width: 260px;
 }
 
 button {
     padding: 10px 15px;
-    background-color: #004529;
+    background-color: #3b82f6;
     color: white;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #006b3c;
+    background-color: #2563eb;
 }
 
 footer {
-    background-color: #004529;
+    background-color: #1e3a5f;
     color: white;
     text-align: center;
     padding: 15px;
